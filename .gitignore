@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# SQLite databases and journals
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Log files
+*.log
+
+# Local environment configuration
+.env
+.env.local
+.env.*.local
+serviceAccountKey.json
+
+# Local uploaded media storage
+backend/uploads/
+uploads/
+
+# IDE settings and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

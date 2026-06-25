@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Environnement
+.env
+
+# Fichiers de données SQLite (ancienne DB)
+*.db
+*.db-shm
+*.db-wal
+
+# ⚠️  CLÉ PRIVÉE FIREBASE — NE JAMAIS COMMITTER
+serviceAccountKey.json
+
+# Uploads (fichiers médias locaux)
+uploads/
+
+# Logs
+*.log
