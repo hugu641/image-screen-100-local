@@ -309,6 +309,7 @@ async function initDb() {
 
     await addColumnIfNotExists('events', 'screen_id', 'TEXT');
     await addColumnIfNotExists('events', 'event_type', 'TEXT');
+    await addColumnIfNotExists('events', 'created_at', 'TEXT');
 
     // Seed default settings
     const settingsExist = await query.get("SELECT 1 FROM settings WHERE id = 'config'");
